@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desempenho em corridas</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Calculador de financiamento de veículos</div>
+        <div class="input">
+            <input placeholder="Renda mensal:" type="number" id='renda' required="required">
+       </div>
+        <div class="input">
+             <input placeholder="Valor do veiculo?" type="number" id='valordoveiculo' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Qual valor de entrada? Ex: 50.000" type="number" id='valordeentrada' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Taxa de juros:"  type="number" id='i' required="required">
+        </div>
+
+        
+         <div class="input">
+            <input  placeholder="Tempo do Financiamento: "  type="number" id='n' required="required">
+        </div>
+    
+        <div>
+            <button type="button" id='calcular'>Calcular</button>
+        </div>
+        
+
+        <div class="result"><p id="resultado"></p></div>
+
+         
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
